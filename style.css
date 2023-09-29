@@ -1,5 +1,31 @@
-p{
-    background-color: black;
-    color: white;
-    padding: 4px 8px;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+body{
+    padding: 16px 16px;
+}
+.card{
+    padding: 4px 8px ;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border:1px solid black;
+
+    .btn{
+      padding: 8px 0px;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+
+      
+
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+      }
 }
